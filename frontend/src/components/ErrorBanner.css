@@ -1,0 +1,18 @@
+.error-banner {
+  border-radius: 0.75rem;
+  border: 1px solid rgba(248, 113, 113, 0.4);
+  background-color: rgba(254, 226, 226, 0.7);
+  color: rgba(127, 29, 29, 0.95);
+  padding: 1rem 1.25rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+@media (min-width: 640px) {
+  .error-banner {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
